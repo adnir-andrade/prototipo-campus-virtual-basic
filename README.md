@@ -126,13 +126,15 @@ Tanto o background quanto as animações foram criadas com o software [Blender](
 
 Os arquivos originais (.blend, .svg, etc.) usados na construção dos assets do CV encontram-se disponíveis na pasta `dev-assets/`.
 
-## Processos da Semana do Evento
+## Processos para atualização de conteúdo
+
+- Para alterar o título apresentado na aba é necessário alterar a tag `<title>` em `public\index.html`
 
 - Atualização da agenda: substituir services/schedule.js (array vazio renderiza uma mensagem genérica)
 
-- Atualização dos apoiadores: substituir map-overlay-anim, atualizar frames={} em map/index.js, atualizar modal-contents/sponsor.js
+- Atualização dos apoiadores: substituir map-overlay-anim, atualizar frames={} em `map/index.js`, atualizar `modal-contents/sponsor.js`
 
-- Atualização de prog: substituir services/prog-highlights (abstract pode ser null, isPresentation=true para sessões, deixar fotos na mesma pasta)
+- Atualização de Exemplo Programação: O conteúdo de "Exemplo Programação" é totalmente dinâmico. Mudanças na estrutura do modal podem ser feitas através dos arquivos dentro de `src\components\prog-main`. Contudo, para alterar a programação em si deve-se alterar o arquivo `prog-highlights.js` encontrado no diretório `src\services\prog-highlights`.
 
 - Dicas sobre componentes genéricos:
 
@@ -144,4 +146,4 @@ Os arquivos originais (.blend, .svg, etc.) usados na construção dos assets do 
   - drive-iframe:
     - Criar uma nova página, adicionar `<DriveIframe url={externalURLs["drive-url"]} />`
     - Abrir um doc no Google Drive, publicar para web como "embedded"
-    - Copiar URL do iframe, adicioná-la em `externalURLs`
+    - Copiar URL do iframe, adicioná-la em `src\services\external-urls.js`
