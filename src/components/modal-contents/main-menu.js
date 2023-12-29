@@ -54,21 +54,12 @@ export default function MainMenu(props) {
         </div>
 
         <Link to="/prog" className="link">
-          <AiOutlineSchedule /> Programação Detalhada
+          <AiOutlineSchedule /> Exemplo de Programação
         </Link>
 
         <Link to="/schedule" className="link">
           <AiOutlineClockCircle /> Exemplo Planilha
         </Link>
-
-        <div
-          className="link"
-          onClick={() => modal.show(modalContents['post-event-message'])}
-        >
-          <AiFillGithub />
-          O Campus Virtual é Seu!
-          <TagNew />
-        </div>
       </div>
 
       <h2>Instruções</h2>
@@ -115,6 +106,15 @@ export default function MainMenu(props) {
           onClick={() => modal.show(modalContents['contact'])}
         >
           <AiOutlineMail /> Contato
+        </div>
+
+        <div
+          className="link"
+          onClick={() => modal.show(modalContents['post-event-message'])}
+        >
+          <AiFillGithub />
+          O Campus Virtual é Seu!
+          <TagNew />
         </div>
       </div>
     </>
