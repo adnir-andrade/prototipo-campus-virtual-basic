@@ -134,6 +134,8 @@ Os arquivos originais (.blend, .svg, etc.) usados na construção dos assets do 
 
 - Atualização do logo do menu superior: Alterar o arquivo `src\components\topmenu\logo.png`
 
+- Atualização de Contato: Para alterar os links das redes sociais e e-mail para contato, necessário alterar informações em `src\services\external-urls.js`. Demais instruções no arquivo.
+
 - Atualização da agenda: substituir services/schedule.js (array vazio renderiza uma mensagem genérica)
 
 - Atualização dos apoiadores: substituir map-overlay-anim, atualizar frames={} em `map/index.js`, atualizar `modal-contents/sponsor.js`
