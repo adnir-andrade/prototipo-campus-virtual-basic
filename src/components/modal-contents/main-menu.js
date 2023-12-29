@@ -10,13 +10,13 @@ import {
   AiOutlineMail,
   AiFillGithub,
   AiOutlineYoutube,
-  // AiOutlineFileText,
-  // AiOutlineFilePdf,
-  // AiOutlineCheckSquare,
-  // AiOutlineTrophy,
+  AiOutlineFileText,
+  AiOutlineFilePdf,
+  AiOutlineCheckSquare,
+  AiOutlineTrophy,
 } from 'react-icons/ai';
-// import { BiWrench } from 'react-icons/bi';
-// import { BsFileEarmarkSlides } from 'react-icons/bs';
+import { BiWrench } from 'react-icons/bi';
+import { BsFileEarmarkSlides } from 'react-icons/bs';
 import { FaRegHandshake } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 
