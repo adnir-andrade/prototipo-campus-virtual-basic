@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { AbstractContext } from ".";
+import { AbstractContext } from '.';
 
 const Activity = function ({ activity }) {
   const ctx = React.useContext(AbstractContext);
@@ -19,7 +19,7 @@ const Activity = function ({ activity }) {
         <span
           className="title"
           onClick={showAbstract}
-          style={{ cursor: activity.abstract != null ? "pointer" : "auto" }}
+          style={{ cursor: activity.abstract != null ? 'pointer' : 'auto' }}
         >
           {activity.title}
         </span>
@@ -27,18 +27,18 @@ const Activity = function ({ activity }) {
         <div className="abstract-link">
           <a
             href={activity.link}
-            target={activity.isPresentation === true ? "_self" : "_blank"}
+            target={activity.isPresentation === true ? '_self' : '_blank'}
             rel="noreferrer"
           >
             {activity.isPresentation === true
-              ? "Ir para Agenda"
-              : activity.link !== ""
-              ? "Link de Acesso"
-              : ""}
+              ? 'Ir para Agenda'
+              : activity.link !== ''
+              ? 'Link de Acesso'
+              : ''}
           </a>
 
           {activity.abstract != null && (
-            <span onClick={showAbstract}>Ver resumo</span>
+            <span onClick={showAbstract}>Mais informações</span>
           )}
         </div>
       </div>
