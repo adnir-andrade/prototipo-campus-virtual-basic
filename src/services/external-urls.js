@@ -1,14 +1,17 @@
 const externalURLs = {
+  // Para alterar informações do modal de Contato (src\components\modal-contents\contact.js), utilizar as linhas abaixo
   'contact-email': 'inserir-email-aqui@utfpr.edu.br',
   'contact-youtube': 'https://www.youtube.com/utfprgp',
   'contact-facebook': 'https://www.facebook.com/UTFPRgp',
   'contact-instagram': 'https://www.instagram.com/utfprgp',
   'contact-whatsapp-bot': 'https://wa.me/inserir-numero-whats',
 
-  //EVIN
-  'evin-base': 'https://eventos.utfpr.edu.br/',
-
   //Links do Drive (publicar na web, depois usar link do iframe)
+  /*
+  Exemplo para referenciar arquivo publicado no Google Drive
+  'nome-da-referencia':
+    'https://docs.google.com/LINK-DO-DOCUMENTO-PUBLICADO/
+  */
 
   'drive-faq':
     'https://docs.google.com/document/d/e/2PACX-1vTaqzAUT7oI8cjzCRo12brbHsev2B_nNWxBLZkqG-Kibdp1oREn03IujxH77T_VE-Iz2H_C1TpAHtln/pub?embedded=true',
