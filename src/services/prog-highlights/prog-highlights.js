@@ -1,4 +1,4 @@
-import noPhoto from './noPhoto.jpg';
+import noPhoto from './imgs/noPhoto.jpg';
 //import presentations from "./presentations.jpg";
 
 //import pUTFPR from "./utfpr.jpg";
@@ -7,7 +7,7 @@ import pTalkTable from './icons/talkTable.jpg';
 
 import pVisit from './icons/pVisit.jpg';
 
-import pPodcast from './pPodcast.jpg';
+import pPodcast from './icons/pPodcast.jpg';
 
 //NEW
 
