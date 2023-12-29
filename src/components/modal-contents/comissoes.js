@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 export default function Comissoes(props) {
   return (
     <>
-      <h1>Comitê Organizador</h1>
-      <div style={{ display: "flex", marginBottom: 16 }}>
+      <h1>Exemplo lista em src\components\modal-contents\comissoes.js</h1>
+      <div style={{ display: 'flex', marginBottom: 16 }}>
         <div>
           <h1>SEI</h1>
           <h2>Comissão Geral</h2>
@@ -12,17 +12,6 @@ export default function Comissoes(props) {
           <p>Alberto Vinicius De Oliveira</p>
           <p>Andres Jesse Porfirio</p>
           <p>Anthony Luiggi Egiert</p>
-          <p>Cristiane Souza Pedroso</p>
-          <p>Evandro Marcos Kolling</p>
-          <p>Fernanda Ribeiro Polzin</p>
-          <p>Fernando Molin</p>
-          <p>Janeffer Maria Kohler Maria Kohler Abramoski</p>
-          <p>Joice Cristini Cristini Kuritza</p>
-          <p>Marcela Maier Farias Czap</p>
-          <p>Paulo Henrique Henrique Soares</p>
-          <p>Rodrigo Scoczynski Ribeiro</p>
-          <p>Rosana Oliveira Da Oliveira Da Silva</p>
-          <p>Sascha Habu</p>
 
           <h2>Comissão Científica</h2>
           <b>Paulo Henrique Henrique Soares (Presidente)</b>
