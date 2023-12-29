@@ -128,7 +128,9 @@ Os arquivos originais (.blend, .svg, etc.) usados na construção dos assets do 
 
 ## Processos para atualização de conteúdo
 
-- Para alterar o título apresentado na aba é necessário alterar a tag `<title>` em `public\index.html`
+- Atualização do título da aba: Alterar a tag `<title>` em `public\index.html`
+
+- Atualização do título do menu superior: Alterar a propriedade `title` da tag `<TopMenu>` no arquivo `src\pages\home\index.js`
 
 - Atualização da agenda: substituir services/schedule.js (array vazio renderiza uma mensagem genérica)
 
