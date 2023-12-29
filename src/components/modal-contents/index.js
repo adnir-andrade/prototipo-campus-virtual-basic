@@ -17,7 +17,7 @@ import Contact from './contact';
 import CalendarSVG from './calendar-svg';
 
 import PostEventMessage from './post-event-message';
-import Comissoes from './comissoes';
+import ExemploLista from './exemplo-lista';
 import VideoTeaser from './video-teaser';
 
 const modalContents = {
@@ -37,7 +37,7 @@ const modalContents = {
   contact: <Contact />,
   'calendar-svg': <CalendarSVG />,
   'post-event-message': <PostEventMessage />,
-  comissoes: <Comissoes />, // "Exemplo Lista"
+  'exemplo-lista': <ExemploLista />, // "Exemplo Lista"
   'video-teaser': <VideoTeaser />, // "Exemplo video"
 };
 

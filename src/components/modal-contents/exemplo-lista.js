@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Comissoes(props) {
+export default function ExemploLista(props) {
   return (
     <>
-      <h1>Exemplo lista em src\components\modal-contents\comissoes.js</h1>
+      <h1>Exemplo lista em src\components\modal-contents\exemplo-lista.js</h1>
       <div style={{ display: 'flex', marginBottom: 16 }}>
         <div>
           <h1>SEI</h1>
