@@ -132,6 +132,8 @@ Os arquivos originais (.blend, .svg, etc.) usados na construção dos assets do 
 
 - Atualização do título do menu superior: Alterar a propriedade `title` da tag `<TopMenu>` no arquivo `src\pages\home\index.js`
 
+- Atualização do logo do menu superior: Alterar o arquivo `src\components\topmenu\logo.png`
+
 - Atualização da agenda: substituir services/schedule.js (array vazio renderiza uma mensagem genérica)
 
 - Atualização dos apoiadores: substituir map-overlay-anim, atualizar frames={} em `map/index.js`, atualizar `modal-contents/sponsor.js`
