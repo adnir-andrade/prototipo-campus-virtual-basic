@@ -22,8 +22,6 @@ import { FiUsers } from 'react-icons/fi';
 
 import { MdFiberNew } from 'react-icons/md';
 
-import icEVIN from '../../assets/icons/icEVIN.png';
-
 import './styles.css';
 
 import { ModalContext } from '../modal';
