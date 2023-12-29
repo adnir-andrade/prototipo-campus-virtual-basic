@@ -81,7 +81,7 @@ export default function MainMenu(props) {
 
         <div
           className="link"
-          onClick={() => modal.show(modalContents['comissoes'])}
+          onClick={() => modal.show(modalContents['exemplo-lista'])}
         >
           <FiUsers /> Exemplo Lista
         </div>
